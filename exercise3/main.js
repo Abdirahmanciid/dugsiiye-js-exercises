@@ -1,7 +1,5 @@
-let isAdult=true;
-let hasPermesion=false;
+let isSunny=true;
+let isWeekend=true;
 
-console.log(isAdult && hasPermesion )
-console.log(isAdult || hasPermesion )
-console.log(! hasPermesion )
-console.log(! isAdult )
+console.log(isSunny||isWeekend )
+
