@@ -12,10 +12,11 @@
 // const result = calculateArea(5, 10);
 // console.log(result); // Output: 50
  
-// , hieght= "gust"
-function calculateArea(width= 25, hieght= "gust"){
-console.log(`area is ${width}  ${hieght}`)
+// 
+function calculateArea(width= 25, hieght =0){
+    let result = width * hieght
+console.log(`area is ${result}  `)
 
 };
-calculateArea();
+calculateArea(2,5);
 
