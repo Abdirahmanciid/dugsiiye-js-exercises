@@ -1,0 +1,10 @@
+{
+    "id": 1,
+    "name": "faysal",
+    "city": "hargaysa",
+    "education":[
+       { "facualty": "it", "couse": "webdev", "phone": 38484}
+    ]
+    
+  
+}
