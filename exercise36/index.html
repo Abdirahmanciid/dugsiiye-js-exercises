@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise36</title>
+    <style>
+        #colorPreview{
+            width: fit-content;
+            margin: 20px;
+            padding: 80px;
+            border: 1px solid black;
+            text-align: center;
+            background-color: rgb(61, 60, 60);
+
+        }
+        #btn{
+            padding: 8px 24px;
+            border-radius: 4px;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <h1>Interactive Color Picker</h1>
+    <label for="choosecolor">Choose a Color:</label>
+    <input type="color" name="colorPicker" id="colorPicker">
+    <div id="colorPreview">
+        <h1> Color preview</h1>
+    </div>
+    <p id="selectedColor">select color : none</p>
+     <h1>Color History</h1>
+    <button onclick="remove()" id="btn" type="reset">Clear History</button>
+   
+    <script src="main.js"></script>
+</body>
+</html>
